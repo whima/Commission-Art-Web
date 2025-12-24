@@ -33,7 +33,7 @@ $data = $koneksi->query("SELECT * FROM artworks ORDER BY id ASC LIMIT 2");
             </div>
 
             <div class="Menu">
-                <a href="Index.php" class="active">Gallery</a>
+                <a href="index.php" class="active">Gallery</a>
                 <a href="About.php">About</a>
                 <a href="Contact.php">Contact</a>
             </div>
@@ -84,3 +84,4 @@ $data = $koneksi->query("SELECT * FROM artworks ORDER BY id ASC LIMIT 2");
 
 </body>
 </html>
+
