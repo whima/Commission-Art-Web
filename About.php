@@ -27,7 +27,7 @@ $data = $koneksi->query("SELECT * FROM artworks");
             <div class="ButtonBall" id="ButtonBall"></div>
         </button>
         <div class="Menu">
-            <a href="Index.php">Gallery</a>
+            <a href="index.php">Gallery</a>
             <a href="About.php" class="active">About</a>
             <a href="Contact.php">Contact</a>
         </div>
@@ -78,5 +78,6 @@ $data = $koneksi->query("SELECT * FROM artworks");
 </body>
 
 <script src="InteractionJS.js"></script>
+
 
 </html>
