@@ -79,7 +79,7 @@ if (isset($_GET['edit'])) {
         <div class="ButtonBall" id="ButtonBall"></div>
     </button>
     <div class="Menu">
-        <a href="Index.php">Gallery</a>
+        <a href="index.php">Gallery</a>
         <a href="About.php">About</a>
         <a href="Contact.php" class="active">Contact</a>
     </div>
@@ -171,3 +171,4 @@ if ($email) {
 <script src="InteractionJS.js"></script>
 </body>
 </html>
+
